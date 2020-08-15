@@ -1,0 +1,122 @@
+.body{
+    background-color:cyan;
+}
+.col-lg-6 img{
+    margin: 0;
+}
+.container-fluid{
+padding: 5% 0 20% 5%;
+}
+/*navigation bar*/
+.navbar-brand{
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-left: 50px;
+}
+.nav-item{
+padding: 0 18px;
+}
+
+.download-button{
+    margin: 3% 1% 4% 1%;
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    font-family: montserrat-bold;
+    font-weight: bolder;
+}
+h2{
+    font-family: montserrat-bold;
+    font-weight: bolder;
+    padding: 3%;
+    text-align: center;
+}
+p{
+    color: gray;
+}
+
+.image-title{
+    width: 400px;
+    height: 400px;
+    
+}
+
+@media(max-width:900px){
+    .image-title{
+      width: 200px;
+      height: 200px;
+    }
+}
+/* feature-section */
+#feature-section{
+padding: 6% 12%;
+
+
+
+}
+.feature-box{
+text-align: center;
+}
+.font{
+    color:darkcyan;
+    margin-bottom: 1rem;
+}
+.font:hover{
+    color:lightseagreen;
+}
+#sentance{
+    text-align: center;
+    background-color:cyan;
+}
+.snacks{
+    width: 200opx;
+    height: 200px;
+}
+/* logo */
+.logo{
+    text-align: center;
+    padding: 2% 10% 0%;
+}
+.tool{
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 160px;
+}
+.carousel-item{
+    margin-top: 5%;
+    margin-bottom: 0;
+    data-pause= "hover"
+}
+.blockitem{
+    width: 300px;
+    height: 300px;
+}
+@media(min-width:900px){
+    .blockitem{
+        height: 500px;
+        width:500px;
+    }
+}
+/* pricing */
+.row{
+    text-align: center;
+}
+
+/* option */
+.option{
+    background-color:aqua ;
+    text-align: center; 
+}
+#footer{
+    text-align: center;
+    padding: 5% 10% 2% 10%;
+}
+.footimage{
+    padding: 3px;
+}
